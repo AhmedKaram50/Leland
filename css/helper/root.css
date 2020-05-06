@@ -1,0 +1,17 @@
+/*
+    About 17 Hours of Working on This website
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --main-color: #e8505b;
+    --heading-color: #212529;
+    --p-color: #868e96
+}
+body{
+    font-family: var(--main-font);
+}
+::selection{
+    color: #fff;
+    background-color: rgb(24, 24, 24);
+}

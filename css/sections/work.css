@@ -1,0 +1,49 @@
+.work{
+    padding: 100px 0;
+    background-color: #fef6f6;
+    border-bottom: 1px solid rgba(232, 80, 91, 0.1);
+}
+
+.work .work-img img{
+    width: 100%;
+}
+
+.work .work-info{
+    padding-top: 30px
+}
+
+.work .work-info h2{
+    color: var(--heading-color);
+    line-height: 1.4;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.work .work-info > p{
+    color: var(--p-color);
+    line-height: 1.6;
+    margin-bottom: 40px;
+    margin-right: 10%;
+}
+
+.work .work-info ul li{
+    list-style: none
+}
+
+.work .work-info ul li i{
+    font-size: 24px;
+    line-height: 3;
+    color: var(--main-color);
+}
+
+.work .work-info ul li:last-child i{
+    position: relative;
+    top: -10px;
+}
+
+.work .work-info ul li p{
+    display: inline-block;
+    margin-left: 15px;
+    width: 85%;
+    color: var(--p-color);
+}

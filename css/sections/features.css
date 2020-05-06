@@ -1,0 +1,73 @@
+.features{
+    padding: 60px 0 100px 0
+}
+
+.features .features-heading h2{
+    color: var(--heading-color)
+}
+
+.features .features-heading p{
+    color: var(--p-color);
+    width: 60%;
+    line-height: 1.6;
+    margin: 20px auto 50px auto
+}
+
+.features .feature-box .feature-holder{
+    padding: 50px 30px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    position: relative
+}
+
+.features .feature-box:nth-child(2) .feature-holder{
+    box-shadow: 0px 30px 50px rgba(232, 80, 91, 0.102);
+}
+
+.features .feature-box .feature-holder:hover{
+    box-shadow: 0px 30px 50px rgba(232, 80, 91, 0.102);
+}
+
+.features .feature-box .feature-holder::before{
+    content: '';
+    background: url(../../images/background/bg-icon.svg) center no-repeat;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    top: 18%;
+    left: calc(50% - 35px);
+}
+
+.features .feature-box .feature-holder i{
+    color: var(--main-color);
+    font-size: 45px;
+    padding: 20px;
+    animation: loop 1s infinite ease paused;
+}
+
+.features .feature-box .feature-holder .feature-info h4{
+    color: var(--heading-color);
+    margin-top: 15px
+}
+
+.features .feature-box .feature-holder .feature-info p{
+    color: var(--p-color);
+    line-height: 1.6;
+}
+
+.features .feature-box .feature-holder:hover i{
+    animation-play-state: running;
+}
+
+@keyframes loop{
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1)
+    }
+}

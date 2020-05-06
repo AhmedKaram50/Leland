@@ -1,0 +1,30 @@
+.subscribe{
+    padding: 150px 0;
+    color: #fff;
+    background: url(../../images/background/bg-gradient-2.svg) center;
+    background-size: cover
+}
+
+.subscribe .subscribe-info h2{
+    font-size: 50px;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: bold
+}
+
+.subscribe .subscribe-info p{
+    font-size: 16px;
+    width: 70%;
+    margin: 30px auto
+}
+
+.subscribe .subscribe-info button a{
+    color: #fff;
+    text-decoration: none
+}
+
+.subscribe .subscribe-info button,
+.subscribe .subscribe-info button:active,
+.subscribe .subscribe-info button:hover{
+    background-color: var(--main-color) !important
+}

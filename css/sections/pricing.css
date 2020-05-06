@@ -1,0 +1,162 @@
+.pricing{
+    padding: 100px 0;
+}
+
+.pricing .pricing-heading h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--heading-color);
+
+}
+
+.pricing .pricing-heading p{
+    width: 50%;
+    color: var(--p-color);
+    line-height: 1.6;
+    margin: 20px auto 40px auto
+}
+
+.pricing .monthly-changer .indicator{
+    display: inline-block;
+    width: 48px;
+    height: 22px;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    margin: 0px 10px -5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+.pricing .monthly-changer .indicator span{
+    width: 22px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    margin: 1px 0 0 1px;
+    position: relative;
+    transition: all 0.5s ease
+}
+
+.pricing .monthly-changer .indicator:hover span{
+    transform: translateX(24px);
+    opacity: 0.5;
+}
+
+.pricing .monthly-changer label{
+    display: inline-block;
+    font-size: 22px;
+    transition: all 0.3s ease
+}
+
+.pricing .card{
+    border: none;
+    position: relative;
+    margin-top: 50px;
+    transform-style: preserve-3d;
+    perspective: 800;
+    transition: all 0.3s ease;
+}
+
+.pricing .card .back{
+    position: absolute;
+    transform: rotateY(180deg);
+    transition: all 0.3s ease;
+    width: 350px
+}
+
+.pricing .card img{
+    width: 100%
+}
+
+.pricing .card .front,
+.pricing .card .back{
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.pricing .card:hover{
+    /* transform: rotateY(180deg); */
+    transition: all 0.3s ease;
+}
+
+.pricing .card:hover ul,
+.pricing .card:hover .card-body{
+    /* transform: rotateY(180deg); */
+}
+
+.pricing .card .inner-img{
+    position: absolute;
+    top: 10%;
+    display: block;
+    width: 100%;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.pricing .card .back .inner-img{
+    top: 28%;
+}
+
+.pricing .card .inner-img h4{
+    font-size: 50px;
+    font-weight: bold
+}
+
+.pricing .card .inner-img span{
+    font-size: 22px;
+}
+
+.pricing .card ul li{
+    color: #868e96;
+    padding: 18px;
+    border: none;
+}
+
+.pricing .card ul li:nth-child(even){
+    background-color: #fef6f6
+}
+
+.pricing .card .card-body button{
+    background: #212529;
+    margin-top: 10px;
+}
+
+.pricing .card .card-body button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.pricing .pricing-table:nth-child(3) button{
+    background: var(--main-color)
+}
+
+.pricing .card .card-body p{
+    color: var(--p-color);
+    font-size: 12px;
+    margin: 30px 0;
+    padding: 0 30px
+}
+
+.pricing .pricing-table:nth-child(3) .back .inner-img::before{
+    content: 'Best Choice';
+    position: absolute;
+    background-color: var(--main-color);
+    width: 300px;
+    height: 30px;
+    top: -30px;
+    right: -90px;
+    transform: rotate(45deg);
+}
+
+.pricing .pricing-table:nth-child(3) .test{
+    overflow: hidden;
+}
+
+.twist{
+    transform: rotateY(180deg);
+}
+
+.trigger{
+    color: var(--main-color)
+}

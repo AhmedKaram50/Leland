@@ -1,0 +1,65 @@
+@media (max-width: 720px) {
+    .features .features-heading p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    header nav .navbar-brand{
+        margin-left: 20px
+    }
+    header .navbar-toggler{
+        margin-right: 20px
+    }
+    header nav ul{
+        background-color: #fff;
+        
+    }
+    header nav ul li{
+        padding-bottom: 15px
+    }
+    .intro{
+        height: 1050px
+    }
+    .intro .intro-img img{
+        width: 100%
+    }
+    .intro .intro-holder .intro-box h1{
+        font-size: 35px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 200px;
+        font-weight: bold
+    }
+    .intro .intro-holder .intro-box p{
+        width: 100%;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+   
+}
+
+@media (max-width: 576px) {
+    .creat .creat-info .creat-numbers .number-box{
+        width: 192px;
+        margin: 30px 15px;
+    }
+    .creat .creat-info h2,
+    .work .work-info h2{
+        font-size: 28px;
+    }
+    .work .work-info h2{
+        margin-top: 40px
+    }
+    .pricing .pricing-heading p{
+        width: 100%
+    }
+    .subscribe .subscribe-info h2{
+        font-size: 31px;
+        width: 92%;
+    }
+    .subscribe .subscribe-info p{
+        width: 100%
+    }
+
+}

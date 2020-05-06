@@ -1,0 +1,66 @@
+/*===== Start Intro =====*/
+.intro{
+    height: 1500px;
+}
+
+.intro-bg{
+    background: url(../../images/background/bg-gradient.svg) center no-repeat;
+    background-size: cover;
+    height: 1050px
+}
+
+.intro .intro-holder .intro-box{
+    color: #fff
+}
+
+.intro .intro-holder .intro-box h1{
+    font-size: 65px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 220px;
+    font-weight: bold
+}
+
+.intro .intro-holder .intro-box p{
+    width: 70%;
+    margin: 25px auto;
+    font-size: 18px;
+}
+
+.intro .intro-holder .intro-box button{
+    background-color: var(--main-color);
+    width: 200px
+}
+
+.intro .intro-holder .intro-box button:active{
+    background-color: var(--main-color) !important
+}
+
+.intro .intro-holder .intro-box button a,
+.intro .intro-holder .intro-box button a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/*===== Start Intro =====*/
+/*===== Start Our Clients =====*/
+.intro .our-clints{
+    border-bottom: 1px solid rgba(232, 80, 91, 0.1);
+    padding-bottom: 30px
+}
+
+.intro .our-clints p{
+    color: #868e96;
+    padding: 80px 0 30px 0
+}
+
+.intro .our-clints img{
+    width: 70%;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+    cursor: pointer
+}
+
+.intro .our-clints img:hover{
+    opacity: 1;
+}
+/*===== End Our Clients =====*/

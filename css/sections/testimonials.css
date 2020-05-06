@@ -1,0 +1,89 @@
+.testimonials{
+    padding: 100px 0;
+    background-color: #fef6f6
+}
+
+.testimonials .quotes{
+    background: url(../../images/background/bg-map.svg) center;
+    background-size: cover;
+    display: none;
+}
+
+.testimonials .slider .quotes.active{
+    display: block;
+}
+
+.testimonials .quotes i{
+    background-color: var(--main-color);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff
+}
+
+.testimonials .quotes h3{
+    margin: 30px auto;
+    font-style: italic;
+    font-weight: bold;
+    width: 90%;
+    line-height: 1.8
+}
+
+.testimonials .quotes .person img{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 110px;
+    border: 1px solid #d8d8d8
+}
+
+.testimonials .quotes > span{
+    color: var(--p-color);
+    margin: 10px 0;
+    display: block;
+}
+
+.testimonials .controlers span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    cursor: pointer;
+    border: 1px solid var(--main-color)
+}
+
+.testimonials .controlers span.active{
+    border: 2px solid var(--main-color);
+    background-color: #fff
+}
+
+.testimonials .controlers span:not(:last-child){
+    margin-right: 10px;
+}
+
+.testimonials .slider{
+    position: relative
+}
+
+.testimonials .slider .next,
+.testimonials .slider .previous{
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--main-color);
+    transition: all 0.3s ease;
+}
+
+.testimonials .slider .next{
+    right: 0
+}
+
+.testimonials .slider .previous{
+    left: 0
+}
+
+.testimonials .slider .next:hover,
+.testimonials .slider .previous:hover{
+    color: rgb(14, 13, 13)
+}

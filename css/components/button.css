@@ -1,0 +1,46 @@
+button.main-btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: var(--main-color);
+    background-color: #fff;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden
+}
+
+button.main-btn span{
+    position: relative;
+    top: 0px;
+    transition: all 0.3s ease
+}
+
+button.main-btn span.upper {
+    position: absolute;
+    top: -50px;
+    left: 75px;
+}
+
+button.main-btn span i.upper-i{
+    font-size: 22px;
+}
+
+button.main-btn i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+button.main-btn:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+
+button.main-btn:hover span.upper{
+    top: 15px
+}
+
+button.main-btn:hover span{
+    top: 50px
+}
