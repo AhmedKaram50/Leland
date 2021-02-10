@@ -136,16 +136,21 @@ slideNext.onclick = function () {
     });
 }
 
-// slidePrev.onclick = function () {
-//     slideItem.forEach(element => {
-//         if(element.className === "quotes active sd"){
-//             console.log('ahmed')
-//         } else{
-//             console.log('else')
-//         }
-//          //.classList.add('active');
-//     });
-// }
+/*== Intersection Observer ==*/
+const call = function (entries) {
+    if (entries[0].isIntersecting === false) {
+        return;
+    } else{
+        entries[0].target.style.opacity = "1";
+    }
+}
+const observe = new IntersectionObserver(call, {
+    threshold: 0.7
+});
 
-
-
+let sections = document.querySelectorAll(".section");
+sections.forEach(element => {
+    observe.observe(element)
+    console.log(element)
+});
+/*== Intersection Observer ==*/
